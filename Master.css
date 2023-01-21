@@ -1,0 +1,38 @@
+.navbar {
+    text-align: center;
+    background-color:darkgray;
+    /* overflow: auto; */
+    color: azure;
+    padding: 6px 6px;
+    border-radius: 3px;
+    margin: 13px 20px;
+    
+}
+
+
+
+#text .female
+{
+    text-align: left;
+    align-items: right;
+}
+#text .male
+{
+    text-align: right;
+    align-items: left;
+}
+
+#ceo .female
+{
+    align-items: right;
+}
+
+#ceo .male
+{
+    align-items: left;
+}
+
+#contacts
+{
+    margin-right: 80px;
+}
