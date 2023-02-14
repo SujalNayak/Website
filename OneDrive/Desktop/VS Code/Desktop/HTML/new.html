@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // function avg(a, b, c, d, e) {
+        //     ans = (a + b + c + d + e) / 5;
+        //     return ans;
+        // }
+        // avg(3, 4, 5, 6, 7);
+        // console.log(avg(3, 4, 5, 6, 7));
+        // // let avg = (2,6,9,7,5) => avg = (2+6+9+7+5)/2;
+
+        // let a = 641;
+        function check_prime(a) {
+            if(a == 1)
+            {
+                return false;
+            }
+            let i = 2;
+            while(i < a)
+            {
+                if (a%i == 0) {
+                    return false;
+                    break;
+                }
+                i++;
+            }
+            return true;
+        }
+        let a = 1, b = 100;
+            for (let i = a; i < b; i++) {
+                if(check_prime(i))
+                {
+                    console.log(i);
+                }
+            }
+        // check_prime(641);
+        // console.log(range(1,100));
+        // console.log(check_prime(641));
+        // console.log(check_prime(1003));
+    </script>
+</body>
+
+</html>

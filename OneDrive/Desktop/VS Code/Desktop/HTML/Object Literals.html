@@ -1,0 +1,27 @@
+<!-- Create a class named 'Vegetables' and create a constructor function in it that assigns a property
+'color' to the newly created object. Create two objects using this class- (1) 'ladyfinger' and assign color 'green' to it & (2) 'bottle gourd' and assign color 'purple' to it. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    class Vegetables {
+        constructor(color) 
+        {
+            this.color = color;
+        }
+    }
+    
+    let ladyfinger = new Vegetables("green");
+    let bottle_gourd = new Vegetables("purple");
+    console.log(ladyfinger);
+    console.log(bottle_gourd);  
+</script>
+</body>
+</html>
