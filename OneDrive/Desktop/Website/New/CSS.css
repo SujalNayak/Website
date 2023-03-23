@@ -1,0 +1,39 @@
+.box{
+    width: 600px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 150px;
+    margin-left: 500px;
+    }
+
+.box1 {
+    height: 90px;
+    width: 190px;
+    border: 1px;
+    margin-top: 120px;
+    margin-left: 5px;
+    background-color: none;
+    border-color:palevioletred;
+    display: inline-block;
+  }
+
+  
+.cell2 {
+    height: 90px;
+    width: 190px;
+    margin-top: 120px;
+    margin-left: 5px;
+    background-color: #999;
+    display: inline-block;
+  }
+
+  
+  
+.cell3 {
+    height: 90px;
+    width: 190px;
+    margin-top: 120px;
+    margin-left: 5px;
+    background-color: #999;
+    display: inline-block;
+  }

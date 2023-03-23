@@ -1,0 +1,79 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* background: rgb(0, 0, 128); */
+    background: radial-gradient(circle, rgb(10, 10, 119) 0%, rgb(36, 36, 192) 100%);
+}
+
+section {
+    height: 90vh;
+}
+
+.container {
+    border: 2px solid white;
+    max-width: 150px;
+    margin-top: 100px;
+    margin-left: 40%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border-radius: 100;
+
+}
+
+ul {
+    list-style-type: none;
+    /* text-decoration: white; */
+    /* text-decoration:solid  white; */
+
+}
+
+.one {
+
+    text-size-adjust: 100px;
+    color: aliceblue;
+    border: 1px solid white;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.two {
+    color: aliceblue;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.three {
+    color: aliceblue;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.four {
+    color: aliceblue;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.five {
+    color: aliceblue;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.six {
+    color: aliceblue;
+    border: 1px solid white;
+    margin-bottom: 70px;
+    margin-top: 30px;
+
+}

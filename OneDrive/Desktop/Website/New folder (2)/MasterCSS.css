@@ -1,0 +1,29 @@
+.box
+{
+  margin-top: 200px;
+  margin-left: 550px;
+  width: 300px;
+  border: 1px solid white;
+  padding: 50px;
+  /* margin: 20px; */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bgimage
+{
+  background-image: linear-gradient(to bottom,#283E51, white);
+  height: 100vh;
+}
+
+#style
+{
+  align-items:center;
+  background-color: white;
+}
+
+#heading
+{
+  font-size: 25px;
+  color: white;
+}

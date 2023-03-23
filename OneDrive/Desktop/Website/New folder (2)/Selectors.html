@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./MasterCSS.css">
+    <title>Document</title>
+</head>
+
+<body class="bgimage">
+    <section class="box">
+        <h3 id="heading">Favourite Movie Franchise</h3>
+        <p id="style">The Matrix</p>
+        <p id="style">Star Wars</p>
+        <p id="style">Harry Potter</p>
+        <p id="style">Lord of the Rings</p>
+        <p id="style">Marvel</p>
+    </section>
+    <script>
+
+        console.log(document.getElementsById('header'));
+        const heading = document.getElementsById('header');
+
+        let list_items = document.getElementsByClassName('list');
+        console.log(list_items);
+        console.log(list_items[3]);
+
+        var all_paragraphs = document.getElementsByTagName('p')
+        console.log(all_paragraphs);
+        console.log(all_paragraphs[2]);
+
+        let title = document.getElementsByTagName('h2');
+        console.log(title);
+        console.log(title[0]);
+
+        const h2 = document.querySelector('h2');
+        const site_title = document.querySelector('#header');
+        const list_paragraph = document.querySelector(' .list');
+
+        console.log(h2);
+        console.log(site_title);
+        console.log(list_paragraph);
+
+        let paras = document.querySelectorAll('p');
+        let all_paras = document.querySelectorAl1('.list');
+
+        console.log(h2);
+        console.log(site_title);
+        console.log(list_paragraph);
+
+        let paras1 = document.querySelectorAl1('p');
+        let all_paras1 = document.querySelectorAl1('.list');
+
+        console.log(paras);
+        console.log(all_paras);
+
+        const title1 = document.getElementById('header');
+        title.style.color = "grey";
+
+        const list_array = document.getElementsByClassNime('list');
+        for (let i = 0; i < list_array.length; i++){
+            list_array[i].style.backgroundColor = "yellow";
+
+        }
+    </script>
+</body>
+
+</html>

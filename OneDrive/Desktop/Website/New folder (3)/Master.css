@@ -1,0 +1,14 @@
+.vl {
+    border-left: 10px solid green;
+    height: 500px;
+  }
+  
+#la
+{
+    align-items:flex-end;
+}
+
+#navbar
+{
+    padding-bottom: 50px;
+}

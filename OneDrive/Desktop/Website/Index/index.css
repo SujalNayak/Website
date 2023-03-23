@@ -1,0 +1,77 @@
+.box
+{
+    background-image: url("/road-1072823_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 723px;
+    position: relative;
+}
+
+.txtbox::before
+{
+    filter:brightness(0.5);
+}
+
+.txtbox
+{
+    border: 2px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%,330px);
+    margin-left: 680px;
+    margin-right: 680px;
+    background-color: white;
+}
+
+#text
+{
+    /* margin-top: 5px; */
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    /* margin-right: 10px; */
+}
+
+#close
+{
+    color: white;
+    font-weight:900;
+    font-size: larger;
+    border: 5px solid grey;
+    border-radius: 5px;
+    background-color: grey;
+    margin-left: 122px;
+    margin-right: 13px;
+    margin-bottom: -5px;
+    margin-top: -0.01px;
+}
+
+.lowertextbox
+{
+    border: 2px solid white;
+    border-radius: 5px;
+    border-width: 5px;
+    transform: translate(60px,500px);
+    margin-right: 1200px;
+}
+
+#lowtxtbox
+{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px;
+    /* margin: 0px 0px 5px 5px; */
+}
+
+.lowertextbox:hover,#lowtxtbox:hover
+{
+    opacity: 0.8;
+    color: black;
+    background-color: whitesmoke;
+    
+    z-index: -1;
+    /* color: black; */
+}
